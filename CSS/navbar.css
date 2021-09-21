@@ -1,12 +1,20 @@
 .topHeader{
-
-
+    position: fixed;
+    box-shadow: 0 4px 5px var(--navbar-shadow);
+    background-color: var(--color-tema);
+    left:0;
+    top:0;
+    width: 100%;
 }
 
 .topNav{
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto;
 }
+
 .logo{
     display: flex;
     align-items: center;
@@ -17,7 +25,7 @@
 
 /*Menu*/
 
-menu{
+.menu{
     display: flex;
     list-style: none;
     margin: 0;
@@ -35,4 +43,55 @@ menu{
     font-weight: 500;
     line-height: 50px;
     
+} 
+
+.openMenu,
+.closeMenu{
+    display: none;
+}
+
+@media (max-width: 950px){
+    /*Menu*/
+    .menu{
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: var(--color-mobile);
+        height: 100%;
+        overflow-y: auto;
+
+        opacity: 0;
+        pointer-events: none ;
+        transition: opacity 0.2s;
+    }
+ 
+    .menu li{
+        padding: 0;
+    }
+    
+    .menu a{
+        color: var(--color-mobile-texto);
+        line-height: 60px;
+        
+    } 
+    .openMenu,
+    .closeMenu{
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+        
+    }
+    .closeMenu{
+        align-self: flex-end;
+        padding: 20px 15px;
+    }
+    .menuAbierto
+    {
+        opacity: 1;
+        pointer-events: all;
+    }
 }

@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <script defer src="js/index.js"></script>
 
     <title>Gsm tech team</title>
 </head>
@@ -14,12 +15,18 @@
    <header class="topHeader">
         <nav class="topNav">
             <a class="logo"> 
-                <img height="80" width="150"  src="Images/logo-GSM-120-altura-01.png" alt="Logo Grupo San Miguel">
+                <img height="60" width="120"  src="Images/logo-GSM-120-altura-01.png" alt="Logo Grupo San Miguel">
                 <div>
                     GSM
                 </div>
             </a>
+            <button id="btnAbrir" class="openMenu" aria-label="Abrir menú">
+                <img src="Images/hamburger-icon.svg" style="background-color: white;" alt="menu">
+            </button>
             <ul class="menu">
+                <button id="btnCerrar" class="closeMenu" aria-label="Cerrar menú">
+                    <img src="Images/close-icon.svg">
+                </button>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">nosotros</a></li>
                 <li><a href="#">contacto</a></li>

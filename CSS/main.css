@@ -1,7 +1,9 @@
 :root{
     --color-tema: black;
     --color-texto: white;
-
+    --navbar-shadow: rgb(196, 196, 196);
+    --color-mobile:rgb(138, 138, 138);
+    --color-mobile-texto: black;
 }
 
 body{
