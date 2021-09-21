@@ -7,11 +7,14 @@
 }
 
 body{
-    background-color: var(--color-tema);
-    color: var(--color-texto);
+    background: var(--color-tema);
+    color: var(--color-texto); 
 }
-
+section{
+    background:linear-gradient(black,grey);
+}
 a{
     text-decoration: none;
     color: var(--color-texto);
 }
+
