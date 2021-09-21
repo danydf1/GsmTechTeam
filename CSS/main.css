@@ -1,0 +1,15 @@
+:root{
+    --color-tema: black;
+    --color-texto: white;
+
+}
+
+body{
+    background-color: var(--color-tema);
+    color: var(--color-texto);
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-texto);
+}

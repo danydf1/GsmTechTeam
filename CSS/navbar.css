@@ -1,0 +1,38 @@
+.topHeader{
+
+
+}
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-texto)
+}
+
+/*Menu*/
+
+menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    padding: 0 15px;
+
+}
+
+.menu a{
+    color: var(--color-texto);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    
+}
