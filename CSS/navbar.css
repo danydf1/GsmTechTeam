@@ -1,19 +1,19 @@
-.topHeader{
-    position: fixed;
-    box-shadow: 0 4px 5px var(--navbar-shadow);
-    background-color: var(--color-tema);
-    left:0;
-    top:0;
-    width: 100%;
-    margin-bottom: 50px;
+.nav-item
+{ 
+    color: var(--color-texto);
 }
-
+.navbar-brand
+{
+    display: flex;
+}
 .topNav{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    max-width: 980px;
+    padding-bottom: 50px;
+    padding: 100px;
     margin: 0 auto;
+    width: 100%;
+    
 }
 
 .logo{
@@ -21,13 +21,19 @@
     align-items: center;
     font-size: 18px;
     font-weight: 500;
-    color: var(--color-texto)
+    color: var(--color-texto);
+    text-decoration: none;
 }
 
-/*Menu*/
-section{
-margin-top: 30%;
+
+.icons{
+    color: white;
+    height: 40px;
+    width: 30px;
+    font-size: 30px;
 }
+/*Menu*/
+
 .menu{
     display: flex;
     list-style: none;
@@ -97,13 +103,7 @@ margin-top: 30%;
         opacity: 1;
         pointer-events: all;
     }
-}
 
-#slider1{
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    height:90%;
-    width: 95%;
+
+    
 }
