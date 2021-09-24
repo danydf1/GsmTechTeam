@@ -1,5 +1,42 @@
+ 
+body{
+  background-color: #010616;
+}
  canvas {
    position: fixed;
-   top: 0;
-   left: 0;
+  margin: 20%  10% auto;
+ }
+
+.Contenedor{
+  position: relative;
+   color: white;
+
+ }
+
+ .Titulo{
+  position: absolute;
+  color: white;
+  left: 61%;
+  top: 61%;
+ }
+
+ @media (max-width: 850px){
+  #bg {
+    position: fixed;
+    height: 92%;
+    width: 100%;
+  }
+ 
+ .Contenedor{
+   position: relative;
+    color: white;
+ 
+  }
+ 
+  .Titulo{
+    position: absolute;
+    color:white;
+    left: 25%;
+    top: 18%;
+  }
  }
