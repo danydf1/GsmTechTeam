@@ -14,13 +14,38 @@
   font-weight: bold;
 }
  .Titulo{
-
-   position: absolute;
-  font-size: 70px;
+  position: absolute;
+  font-size: 100px;
   line-height: 120px;
   align-items: Center;
   vertical-align: Top;
   color: #F8EEEE;
-  left: 4%;
-  top: 63%;
+  left: 6%;
+  top: 48%;
+ }
+ .TituloRojo{
+  position: absolute;
+  font-size: 100px;
+  line-height: 120px;
+  align-items: Center;
+  vertical-align: Top;
+  color: #D1525A;
+  left: 15%;
+  top: 58%;
+ }
+
+ #ImagenPrincipal{
+  width: 71%;
+  margin-top: -92px;
+  transform: rotate(
+3deg);
+  margin-left: 406px;
+  opacity: .8;
+ }
+ hr {
+  height: 100px;
+  background-color: white;
+}
+ @media(max-width: 940px){
+
  }
