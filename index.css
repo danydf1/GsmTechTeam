@@ -32,9 +32,10 @@ body{
    align-items: Center;
    vertical-align: Top;
    color: #F8EEEE;
-   left: 6%;
-   top: 48%;
+   left: 16%;
+   top: 28%;
   }
+  
   .TituloRojo{
    position: absolute;
    font-size: 100px;
@@ -42,8 +43,8 @@ body{
    align-items: Center;
    vertical-align: Top;
    color: #D1525A;
-   left: 15%;
-   top: 58%;
+   left: 25%;
+   top: 36%;
   }
  
   .Frase{
@@ -54,7 +55,7 @@ body{
    vertical-align: Top;
    color: #FFFF;
    left: 30%;
-   top: 85%;
+   top: 45%;
    letter-spacing: 0.25em;
   }
   .FraseMonitor{
@@ -98,16 +99,15 @@ body{
  }
  
  #ImagenMonitor{
-   width: 950px;
-   margin-left: 75%;
-   margin-top: 76px;
+  width: 708px;
+  margin-left: 75%;
+  margin-top: 76px
   
  }
   #ImagenPrincipal{
-   width: 245%;
-   margin-top: -30%;
-   margin-left: 155%;
-   opacity: 1;
+    width: 173%;
+    margin-top: -30%;
+    margin-left: 190%;
    
   }
   
