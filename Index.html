@@ -5,9 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="shortcut icon" href="Images/GSM-PRINCIPAL.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" >
     <title>GSM TECH</title>
+
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="#">GSM <br>TECH</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Desarrollo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ciberseguridad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Vacantes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contratamos</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+ 
+      <div class="slider">
+        <div class="container" id="mundo">
+          <img id="ImagenPrincipal"  src="Images/mundo.png" alt="Mundo iluminado">
+          <h2  id="tituloMundo" class="Titulo " >Trabaja con</h2>
+          <h2 class="TituloRojo " id="tituloNos" >nosotros</h2>
+          <p class="Frase " id="tituloStaffing">STAFFING DE NUEVOS TALENTOS</p>
+        </div>
+             <div class="container" style="width: 100%;  display: none;" id="monitor">
+            <p class="FraseMonitor text-focus-in">PROTEGEMOS TUS DATOS</p>
+          <img id="ImagenMonitor" class="slide-in-bottom" src="Images/MONITOR.png" alt="Monitor">
+          <h2 id="ciber" class="Titulo slide-in-left">ciber </h2>
+          <h2 id="Seguridad" class="TituloRojo slide-in-right">seguridad</h2>
+         </div>    
+       <div class="container" style="display: none;" id="telefono">
+          <img id="ImagenTelefono" class="slide-in-bottom" src="Images/iphone-160307.png" alt="telefono celular">
+          <h2 id="desarrollo" class="Titulo text-focus-in ">Desarrollo </h2>
+          <h2 id="web" class="TituloRojo text-focus-in" >web</h2>
+        </div> 
+      </div>
     
-</body>
+      <script src="index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+      
+    </body>
 </html>

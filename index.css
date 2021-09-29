@@ -1,0 +1,145 @@
+
+body{
+
+    background-color: #000C33;
+  }
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 6%;
+  }
+ .contendor{
+   position: relative;
+ }
+ .navbar-brand{
+   font-weight: bold;
+ }
+ 
+ .slider{
+   display: flex;
+ 
+   max-width: 500px;
+   height: 300px;
+   width: 100%;
+   
+ }
+ 
+  .Titulo{
+   position: absolute;
+   font-size: 100px;
+   line-height: 120px;
+   align-items: Center;
+   vertical-align: Top;
+   color: #F8EEEE;
+   left: 6%;
+   top: 48%;
+  }
+  .TituloRojo{
+   position: absolute;
+   font-size: 100px;
+   line-height: 120px;
+   align-items: Center;
+   vertical-align: Top;
+   color: #D1525A;
+   left: 15%;
+   top: 58%;
+  }
+ 
+  .Frase{
+   position: absolute;
+   font-size: 29px;
+   line-height: 120px;
+   align-items: Center;
+   vertical-align: Top;
+   color: #FFFF;
+   left: 30%;
+   top: 85%;
+   letter-spacing: 0.25em;
+  }
+  .FraseMonitor{
+   position: absolute;
+   font-size: 29px;
+   line-height: 120px;
+   align-items: Center;
+   vertical-align: Top;
+   color: #FFFF;
+   left: 33%;
+   top: 7%;
+   letter-spacing: 0.25em;
+  }
+  #Seguridad{
+   top: 26%;
+   font-size: 124px;
+   left: 37.6%;
+  }
+ #ciber{
+    left: 23.9%;
+    font-size: 124px;
+    top: 26%;
+ }
+ 
+ #desarrollo{
+   left: 41%;
+     top: 21%;
+     font-size: 144px;
+ }
+ #web{
+   top: 35%;
+   left: 51%;
+   font-size: 144px;
+ }
+ 
+ #ImagenTelefono{
+   width: 272px;
+ 
+   margin-left: 36%;
+   margin-top: 69%
+ }
+ 
+ #ImagenMonitor{
+   width: 950px;
+   margin-left: 75%;
+   margin-top: 76px;
+  
+ }
+  #ImagenPrincipal{
+   width: 245%;
+   margin-top: -30%;
+   margin-left: 155%;
+   opacity: 1;
+   
+  }
+  
+  .banner{
+    background-color: white;
+  }
+  @media(max-width: 940px){
+ 
+  }
+ 
+ 
+ 
+ 
+ /*Movimientos y animaciones*/
+ .slide-out-right{animation:slide-out-right 2s linear both}
+ @keyframes slide-out-right{0%{transform:translateX(0);opacity:1}100%{transform:translateX(1000px);opacity:0}}
+ 
+ .fade-out{animation:fade-out 2s ease-out both}
+ @keyframes fade-out{0%{opacity:1}100%{opacity:0}}
+ 
+ .slide-in-top{animation:slide-in-top .5s cubic-bezier(.25,.46,.45,.94) reverse both}
+ @keyframes slide-in-top{0%{transform:translateY(-1000px);opacity:0}100%{transform:translateY(0);opacity:1}}
+ 
+ .slide-in-bottom{animation:slide-in-bottom 4s cubic-bezier(.25,.46,.45,.94) both}
+ @keyframes slide-in-bottom{0%{transform:translateY(1000px);opacity:0}100%{transform:translateY(0);opacity:1}}
+ 
+ .slide-in-left{animation:slide-in-left 1.5s cubic-bezier(.25,.46,.45,.94) both}
+ @keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+ 
+ .slide-in-right{animation:slide-in-right 1.5s cubic-bezier(.25,.46,.45,.94) both}
+ @keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+ 
+ .text-focus-in{animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}
+ @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+ /*--------------*/
