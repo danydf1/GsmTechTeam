@@ -41,4 +41,4 @@ window.onscroll = function() {
     frasemoni = document.getElementById("ciber");
     frasemoni.classList.remove("slide-in-left");
     frasemoni.classList.add("fade-out");
-  }
+}
