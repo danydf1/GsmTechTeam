@@ -32,8 +32,8 @@ body{
    align-items: Center;
    vertical-align: Top;
    color: #F8EEEE;
-   left: 16%;
-   top: 28%;
+   left: 10%;
+   top: 38%;
   }
   
   .TituloRojo{
@@ -44,19 +44,19 @@ body{
    vertical-align: Top;
    color: #D1525A;
    left: 25%;
-   top: 36%;
+   top: 50%;
   }
  
   .Frase{
-   position: absolute;
-   font-size: 29px;
-   line-height: 120px;
-   align-items: Center;
-   vertical-align: Top;
-   color: #FFFF;
-   left: 30%;
-   top: 45%;
-   letter-spacing: 0.25em;
+    position: absolute;
+    font-size: 29px;
+    line-height: 120px;
+    align-items: Center;
+    vertical-align: Top;
+    color: #FFFF;
+    left: 30%;
+    top: 59%;
+    letter-spacing: 0.65em;
   }
   .FraseMonitor{
    position: absolute;
@@ -81,34 +81,31 @@ body{
  }
  
  #desarrollo{
-   left: 41%;
-     top: 21%;
-     font-size: 144px;
+  left: -79%;
+  top: 21%;
+  font-size: 144px;
  }
  #web{
-   top: 35%;
-   left: 51%;
-   font-size: 144px;
+  left: -16%;
+  top: 35%;
+  font-size: 144px;
  }
  
  #ImagenTelefono{
-   width: 272px;
- 
-   margin-left: 36%;
-   margin-top: 69%
+  width: 272px;
+  margin-left: -278%;
+  margin-top: 80%;
  }
  
  #ImagenMonitor{
   width: 708px;
-  margin-left: 75%;
-  margin-top: 76px
+  margin-left:-5% ;
+  margin-top: 56px
   
  }
   #ImagenPrincipal{
-    width: 173%;
-    margin-top: -30%;
-    margin-left: 190%;
-   
+  height: 60%;
+  margin-left: 150%;
   }
   
   .banner{
@@ -118,11 +115,27 @@ body{
  
   }
  
+ .secciones{
+   width: 100vw;
+   height: 100vh;
+   margin-top: 100px;
+ }
  
+ h3{
+   color:white;
+ }
+
+ .ImagenesServicios{
+  width: 30%;
+ }
+ .barraBlanca{
+   position: absolute;
+  width: 100vw;
+  height: 176px;
+  bottom: 0;
+ }
  
- 
- /*Movimientos y animaciones*/
- .slide-out-right{animation:slide-out-right 2s linear both}
+ /* .slide-out-right{animation:slide-out-right 2s linear both}
  @keyframes slide-out-right{0%{transform:translateX(0);opacity:1}100%{transform:translateX(1000px);opacity:0}}
  
  .fade-out{animation:fade-out 2s ease-out both}
@@ -141,5 +154,4 @@ body{
  @keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
  
  .text-focus-in{animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}
- @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
- /*--------------*/
+ @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}} */
