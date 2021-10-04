@@ -1,32 +1,32 @@
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
-var tl = gsap.timeline({
-    scrollTrigger:{
-       trigger:'#slider'
-    }
-})
+// var tl = gsap.timeline({
+//     scrollTrigger:{
+//        trigger:'#slider'
+//     }
+// })
 
-tl.to('#mundo',{
-    duration: 2,
-    y:-500,
-    opacity:0  
-});
+// tl.to('#mundo',{
+//     duration: 2,
+//     y:-500,
+//     opacity:0  
+// });
 
-tl.to('#monitor',{
-    start:300,
-    opacity:1,
-    y:-300,
-    duration:2
-})
+// tl.to('#monitor',{
+//     start:300,
+//     opacity:1,
+//     y:-300,
+//     duration:2
+// })
 
-tl.to('#monitor',{
-    opacity:0
-})
-tl.to('#telefono',{
-    opacity:1,
-    y:0,
-    duration:2
-})
+// tl.to('#monitor',{
+//     opacity:0
+// })
+// tl.to('#telefono',{
+//     opacity:1,
+//     y:0,
+//     duration:2
+// })
 
 // var slider = 0;
 
