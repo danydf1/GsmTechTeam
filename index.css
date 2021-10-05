@@ -2,15 +2,7 @@
 body{
     background-color: #000C33;
   }
-  canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin-top: 6%;
-  }
- .contendor{
-   position: relative;
- }
+
  .navbar-brand{
    font-weight: bold;
  }
@@ -210,12 +202,24 @@ body{
   margin-top: -91px;
   text-align: center;
 }
+#ImgCiber{
+  margin-left: 54%;
+  margin-top: -50%
+}
+
+#btnCiber3Abrir,
+#btnCiber4Abrir{
+  margin-left: 21%;
+}
+#btnCiber2Abrir{
+  margin-left: 7%;
+}
 
 /*Desarrollo*/
 #fraseDesarrollo{
   position: absolute; 
   margin-top: 150px;
-  margin-left:43.2%;
+  margin-left:33.3%;
   color: white; 
   letter-spacing: 4px;
 }
@@ -233,7 +237,7 @@ body{
 }
 #ubiListaDesarrollo{
   margin-top: 10%;
-  margin-left: 64%;
+  margin-left: 54%;
 }
 #listaDesarrollo
 {
@@ -334,4 +338,269 @@ body{
   margin-left: 10%;
   width: 85%; 
   padding-top: 100px;
+}
+/*whatsapp*/
+.btnWsp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 60px;
+  bottom:25px;
+  right:25px;
+  background:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
+}
+.btnWsp:hover{
+  background:#FFF ;
+  color:#20ba5a;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+  .secciones{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 100px;
+  }
+  
+  h3{
+    color:white;
+  }
+ 
+  .ImagenesServicios{
+   width: 35%;
+  }
+
+  .staffing{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 3%;
+  }
+ 
+  hr{
+   color: #D1525A;
+   width: 34%;
+   height: 3px;
+  }
+  .lista{
+   margin-top: 34%;
+  }
+  #brMovil{
+    display:block;
+  }
+  #brDesktop
+  {
+    display: none;
+  }
+ 
+ 
+  /*titulos de todos los componentes*/
+  /*STAFFING*/
+ #tituloStaffing
+ {
+   font-size: 64px;
+    color: #FFF ;
+     display: inline;
+ }
+ #tituloStaffingRojo{
+   font-size: 64px;
+   color: #D1525A;
+   display: inline;
+ }
+ #fraseStaffing{
+   color: white;
+   font-size: 15px;
+   margin-top: 0;
+   text-align: center;
+ }
+ #btnStaffing{
+  margin-left: 20%
+ }
+ 
+ /*Que hacemos*/
+ #queHacemos{
+  font-size: 68px;
+ }
+ .brCiber {
+   display: none;
+ }
+ /*CiberSeguridad*/
+ #fraseCiber{
+  font-size: 10px;
+  margin-top: 39%;
+  margin-left: 5%;
+
+ }
+ #tituloCiberRojo{
+  margin-left: 3%;
+  font-size: 50px;
+ }
+ #tituloCiber{
+   font-size: 50px; 
+   color: #FFF; 
+   display: inline;
+ }
+ #listaCiber{
+  display: inline;
+  font-size: 14px;
+  margin-top: 155%;
+  margin-left: 5%;
+ }
+ .icon{
+  width: 36px;
+ }
+ #descripcionCiber{
+  margin-top: -163%;
+  text-align: initial;
+  margin-left: 15px;
+  font-size: 18px;
+ }
+ #ImgCiber{
+  margin-left: 20%;
+  margin-top: -3%;
+  width: 57%;
+}
+  
+ /*Desarrollo*/
+ #fraseDesarrollo{
+  position: absolute;
+  margin-top: 45%;
+  margin-left: 2%;
+  color: white;
+  letter-spacing: 0px;
+ }
+ #tituloDesarrolloRojo{
+   margin-left: 0;
+   font-size: 53px; 
+   color: #D1525A; 
+   display: inline;
+   margin-top: 0px;
+ }
+ #tituloDesarrollo{
+   font-size: 53px; 
+   color: #FFF; 
+   display: inline;
+ }
+ #ubiListaDesarrollo{
+  margin-top: 44%;
+  margin-left: 10%;
+ }
+ #listaDesarrollo
+ {
+   color:white;
+   display: inline;
+   font-size: 18px;
+ }
+ #imgDesarrollo
+ {
+  margin-top: -8%;
+  width: 66%;
+  margin-left: 16%;
+ }
+ #descripcionDesarrollo
+ {
+   margin-top: -173%;
+   color: white;
+   font-size: 16px;
+   text-align: initial;
+   margin-left: 0%;
+ }
+ /*OUTSOURCING*/
+ #fraseOutsourcing
+ {
+   position: absolute;
+   margin-top: 140px;
+   color: white;
+   letter-spacing: 1px;
+ }
+ #tituloOutsourcingRojo
+ {
+   margin-left:0%;
+   font-size: 53px; 
+   color: #D1525A; 
+   display: inline;
+ }
+ #tituloOutsourcing
+ {
+   font-size: 53px; 
+   color: #FFF; 
+   display: inline;
+ }
+ #descripcionOutsourcing{
+  margin-left: 0;
+  color: white;
+  font-size: 14px;
+  margin-top: 4px;
+  text-align: initial
+ }
+ #listaOutsourcing{
+  color: white;
+  display: inline;
+  font-size: 17px;
+  margin-top: 50px;
+ }
+ #ImagenOutsourcing{
+  width: 240px;
+  margin-left: 21%;
+  margin-top: 0%;
+ }
+ 
+ /*Sponsor*/
+ #tituloSponsor{
+   color: white;
+   letter-spacing: 10px;
+   text-align: center;
+ }
+ .Sponsor{
+   height: 50vh;
+ }
+ .imgSponsor{
+  display: inline;
+  margin-left: 6%;
+  width: 340px;
+ }
+ 
+ 
+ /*Clientes*/
+ .clientes{
+   height: 50vh;
+   background-color:#C4C4C4 ;
+  
+ }
+ #tituloClientes{
+   color:#000C33 ;
+   letter-spacing: 10px;
+   text-align: center;
+   padding-top: 40px;
+ }
+ .ImgMarcas{
+  display: inline;
+  width: 85px;
+  opacity: 0.5;
+  margin-left: 8%;
+  margin-top: 50px;
+ }
+ 
+ /*footer*/
+ #divFooter{
+   width: 100%; 
+   background-color: #FFF; 
+   height: 200%;
+ }
+ #footer{
+   margin-left: 10%;
+   width: 85%; 
+   padding-top: 100px;
+ }
+  .btnWsp{
+      width:63px;
+      height:63px;
+      line-height: 66px;
+}
 }
