@@ -1,0 +1,36 @@
+#btnPostular{
+    margin-left: 67%;
+    width: 20%;
+    background: none;
+    border-color: #D1525A;
+    color: white;
+    margin-bottom: 4%;
+}
+.form{
+    margin-top: -55%;
+    margin-left: 50%;  
+    width: 50%;
+    Word-wrap: break-Word;
+}
+
+.campos{
+    width: 100%;
+    margin-top: 11px;
+    border-bottom: #D1525A 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    font-size: 30px;
+}
+.imgForm{
+    width: 41%;
+    margin-top: 128px;
+    margin-bottom: 12%;
+    margin-left: -0%;
+}
+#campoFile{
+    text-align: center;
+    width: 30%;
+    margin-left: 70%;
+}

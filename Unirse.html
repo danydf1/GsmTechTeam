@@ -8,12 +8,14 @@
     <link rel="shortcut icon" href="Images/GSM-PRINCIPAL.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css" >
-    <a href="index.html"></a><title>Unite a GSM TECH</title></a>
+    <link rel="stylesheet" href="Unirse.css">
+
+    <title>Unite a GSM TECH</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent " >
-        <div class="container" >
-          <a class="navbar-brand" href="#">GSM <br>TECH</a>
+        <div class="container"  >
+          <a class="navbar-brand" href="index.html">GSM <br>TECH</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -40,41 +42,106 @@
           </div>
         </div>
       </nav>
-      <div style="width: 100vw;height: 20%; background-color: white;">    
-        <h1 style="color: #000c33;">Necesitamos tu talento</h1>
-        <p style="color: #000c33;">TRABAJA CON NOSOTROS</p>
+      <div style="width: 100vw; background-color: white;padding: 30px; text-align: center;">    
+        <h1 style="color: #000c33; display: inline; font-size: 96px;">Necesitamos </h1> <h1 style="color:#D1525A; display: inline; font-size: 96px;">tu talento</h1>
+        <p style="color: #000c33;letter-spacing: 20px; ">TRABAJA CON NOSOTROS</p>
       </div>
       <div class="container">
 
-        <img src="Images/FORMULARIO-1.gif" style="width: 327px;"  alt="personas hablando">
-        <form >
-          <input type="text" placeholder="Nombre y apellido" style=" border: none; background: none;">
-          <hr>
-          <input type="text" placeholder="Email" style=" border: none; background: none;">
-          <hr>
-          <input type="text" placeholder="Telefono" style=" border: none; background: none;">
-          <hr>
-          <input type="text" placeholder="Especialidad" style=" border: none; background: none;">
-          <hr>
-          <input type="text" placeholder="Cargar CV" style=" border: none; background: none;">
-          <hr>
+        <img src="Images/FORMULARIO-1.gif" class="imgForm"  alt="personas hablando">
+        <form class="form" >
+          <input type="text" placeholder="Nombre y apellido"  class="campos">
+        
+          <input type="text" placeholder="Email" class="campos">
+         
+          <input type="text" placeholder="Telefono" class="campos">
+         
+          <input type="text" placeholder="Especialidad" class="campos">
+        
+          <input type="text" placeholder="Cargar CV" id="campoFile"  class="campos">
+   
+          <p style="color: white;margin-top: 44px;">Estoy de acuerdo con el tratamiento de mis datos personales según la Política de Privacidad 
+            En virtud de lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento europeo y del consejo de 27 de abril de
+             2016 relativo a la protección de las personas físicas en lo que respecta 
+             al tratamiento de datos personales, 
+             GRUPO SAN MIGUEL le informa que sus datos personales incorporados en este formulario, serán incluidos 
+             en un fichero creado bajo nuestra responsabilidad, con la finalidad de comunicarnos con usted para llevar a cabo el mantenimiento y control 
+             de la relación negocial que nos vincula y podrán ser cedidos a terceros para 
+             gestionar la relación negocial. Según el Reglamento (UE) 2016/679 de 27 de abril de 2016, puede ejercitar los derechos de acceso, rectificación,
+              oposición y supresión dirigiéndose por escrito a GRUPO SAN MIGUEL en C/Santillana del mar 14, Local19º,
+              Boadilla del Monte 28660, Madrid o al correo electrónico info@gruposanmiguel.es</p>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1" style="color: white;">SI</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2" style="color: white;">NO</label>
+              </div>
+              </div>
+               <button id="btnPostular">Postularme</button>
           
       </form>
-      <p style="color:white;">Estoy de acuerdo con el tratamiento de mis datos personales según la Política de Privacidad 
-        En virtud de lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento europeo y del consejo de 27 de abril de
-         2016 relativo a la protección de las personas físicas en lo que respecta 
-         al tratamiento de datos personales, 
-         GRUPO SAN MIGUEL le informa que sus datos personales incorporados en este formulario, serán incluidos 
-         en un fichero creado bajo nuestra responsabilidad, con la finalidad de comunicarnos con usted para llevar a cabo el mantenimiento y control 
-         de la relación negocial que nos vincula y podrán ser cedidos a terceros para 
-         gestionar la relación negocial. Según el Reglamento (UE) 2016/679 de 27 de abril de 2016, puede ejercitar los derechos de acceso, rectificación,
-          oposición y supresión dirigiéndose por escrito a GRUPO SAN MIGUEL en C/Santillana del mar 14, Local19º,
-          Boadilla del Monte 28660, Madrid o al correo electrónico info@gruposanmiguel.es</p>
-    <input type="radio" name="SI" text="SI" id=""> <p>SI</p>
-    <input type="radio" name="NO" ><p>NO</p>
-    <button>Postularme</button>
+    </div>
+      <div id="divFooter" >
+        <footer id="footer" >
+          <div class="row">
+            <div class="col-3">
+              <h5>INFORMACION DE CONTACTO EUROPA</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><p>Madrid, España</p></li>
+                <li class="nav-item mb-2"><p>Phone: +34 910 426 493</p></li>
+                <li class="nav-item mb-2"><p>Mobile: +34 656 188 146 </p></li>
+                <li class="nav-item mb-2"><p>Email: info@gruposanmiguel.es</p></li>
+                <li class="nav-item mb-2">Web:<a href="#" class="nav-link p-0 text-muted"> GRUPO SAN MIGUEL (España)</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-3">
+              <h5>INFORMACION DE CONTACTO LATAM</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><p>Buenos Aires, Argentina</p></li>
+                <li class="nav-item mb-2"><p>Phone: +549 11 4726 7300</p></li>
+                <li class="nav-item mb-2"><p>Email: info@gruposanmiguel.com.ar</p></li>
+                <li class="nav-item mb-2">Web:<a href="https://www.gruposanmiguel.com.ar" class="nav-link p-0 text-muted"> GRUPO SAN MIGUEL (Latam)</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-4 offset-1">
+              <form>
+                <h5>Subscribete a nuestro newsletter</h5>
+                <p>Informacion por semana.</p>
+                <div class="d-flex w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Correo electronico">
+                  <button class="btn btn-primary" type="button">Subscribete</button>
+                </div>
+              </form>
+            </div>
+          </div>
+         
+          <div class="d-flex justify-content-between py-4 my-4 border-top">
+            <p>© 2021 Grupo San Miguel.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D1525A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+              </svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D1525A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="3" />
+                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+              </svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D1525A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+              </svg></a></li>
+            </ul>
+          </div>
+        </footer>
       </div>
- 
+      
 
 </body>
 </html>

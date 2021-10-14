@@ -1,0 +1,29 @@
+.inputs{
+    width: 95%;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+.check{
+    margin-top: 5%;
+    margin-left: 0%;
+    width: 50%;
+
+}
+.contenedorInputs{
+    margin-top:-18%;
+    margin-left: 55%;
+    margin-bottom: 5%;
+    width: 45%;
+    font-size: 25px;
+ 
+}
+.campos{
+    width: 90%;
+    background: none;
+    border-bottom: #D1525A 2px solid;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color: white;
+    
+}
