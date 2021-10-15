@@ -1,0 +1,84 @@
+
+.TituloBanner{
+    color: #000c33;
+    display: inline;
+    font-size: 96px;
+}
+.TituloBannerRojo
+{
+    color:#D1525A; 
+    display: inline; 
+    font-size: 96px;
+}
+.frase{
+    color: #000c33;
+    letter-spacing: 20px; 
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .TituloBanner{
+        color: #000c33;
+        display: inline;
+        font-size:60px;
+    }
+    .TituloBannerRojo
+    {
+        color:#D1525A; 
+        display: inline; 
+        font-size: 60px;
+    }
+    .frase{
+        margin-top: 30px;
+        color: #000c33;
+        letter-spacing: 4px; 
+        font-size: 13px;
+    }
+    .imgForm{
+        width: 350px;
+        margin-top: 41px;
+    }
+    .form{
+        margin-left: 0%;
+        width: 100%;
+        Word-wrap: break-Word;
+        margin-top: 0;
+    }
+    .campos{
+        width: 100%;
+        margin-top: 11px;
+        border-bottom: #D1525A 2px solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background: none;
+        font-size: 30px;
+    }
+    #campoFile {
+        text-align: center;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .contrato{
+        font-size: 13px;
+    }
+    #btnPostular{
+        width: 80%;
+        margin-left: 3%;
+        margin:10%;
+    }
+
+    .col-3{
+        width: 100%;
+    }
+    h5{
+        font-size: 15px;
+    }
+    .formFooter{
+        margin-left: -30px;
+        margin-top: 34px;
+    }
+    .btn{
+        margin-right: 41px;
+    }
+}
+
