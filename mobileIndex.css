@@ -1,0 +1,492 @@
+@media only screen and (min-width:320px) and (max-width:768px){
+    .secciones{
+        width: 100vw;
+        height: 85vh;
+        margin-top: 0px;
+        margin-bottom: -15%;
+        }
+    .ImgPrincipal{
+        margin-left: 0px;
+        width: 100%;
+        position: absolute;
+        top: 30px;
+      }
+      .tituloBlancoPrincipal
+      {
+        font-family: BeVietnam-Boldimport;
+        color: white;
+        top: 36%;
+        left: 0;
+        font-size: 72px;
+      }
+      .tituloRojoPrincipal
+      {
+        font-family: BeVietnam-Boldimport;
+
+        color: rgb(209, 82, 90);
+        top: 57%;
+        left: 0%;
+        font-size: 72px;
+      }
+      .FrasePrincipal{
+        color: white;
+        letter-spacing: 1px;
+        position: absolute;
+        top: 69%;
+        left: 0;
+      }
+      .barraBlanca{
+        background-color: white;
+        position: absolute;
+        width: 100vw;
+        bottom: 53px;
+        height: 17%;
+      }
+  
+      .descripcionPrincipal1
+      {
+        position: absolute;
+        font-size: 17px;
+        left: 2%;
+        bottom: 51px;
+        color: black;
+        width: 52%;
+        height: 86px;
+        border-right: none;
+        width: 70%;
+        font-style: italic;
+      }
+      .descripcionPrincipal2
+      {
+        display: none;
+        border-right: none;
+      
+      }
+      .descripcionPrincipal3
+      {
+        display: none;
+
+      }
+      
+        h3{
+        color:white;
+        }
+      
+        .ImagenesServicios{
+        width: 37%;
+      
+        }
+      
+
+      
+        hr{
+            color: #D1525A;
+            width: 95%;
+            height: 3px;
+            border-bottom: #D1525A 1px solid;
+            opacity: 1;
+        }
+        .lista{
+        margin-top: 50%;
+        }
+      
+      
+        /*titulos de todas los componentes*/
+        /*STAFFING*/
+        .staffing{
+            position: absolute;
+            width: 85%;
+            left: 7%;
+            margin-top: 2px;
+        }
+        #tituloStaffing
+        {
+            position: absolute;
+            font-weight: bold;
+            font-family: BeVietnam-Boldimport;
+            font-size: 54px;
+            color: #FFF;
+            display: inline;
+            top: 98%;
+            text-align: center;
+            left: 10%;
+        }
+        #tituloStaffingRojo{
+            position: absolute;
+            font-weight: bold;
+            font-family: BeVietnam-Boldimport;
+            font-size: 54px;
+            color: #D1525A;
+            display: inline;
+            top: 113%;
+            text-align: center;
+            left: 81px;
+        }
+        #fraseStaffing{
+            color: white;
+            font-size: 15px;
+            margin-top: 95%;
+        }
+        #btnStaffing{
+            border-color: #D1525A;
+            background: none;
+            color: #FFF;
+            width: 250px;
+            height: 47px;
+            margin-top: 272px;
+        }
+
+    /*CiberSeguridad*/
+        #fraseCiber{
+            position: absolute;
+            font-weight: lighter;
+            font-size: 11.7px;
+            color: white;
+            letter-spacing: 2px;
+            margin-top: 177px;
+            margin-left: 0px;
+        }
+        #fraseCiber2{
+            position: absolute;
+            font-weight: lighter;
+            font-size: 11px;
+            margin-top: 205px;
+            color: white; 
+            letter-spacing: 7px;
+            margin-left: 0px;
+
+        }
+        #tituloCiberRojo{
+            font-family: BeVietnam-Boldimport;
+            margin-left: -0.5%;
+            font-size: 40px;
+            color: #D1525A;
+            display: inline; 
+        }
+        #tituloCiber{
+            font-family: BeVietnam-Boldimport;
+            font-size: 40px;
+            color: #FFF;
+            display: inline;
+            margin-left: -6px;
+        }
+        #listaCiber{
+            color: white;
+            display: inline;
+            font-size: 15px;
+            margin-left: 0;
+            margin-top: 10%;
+      
+        }
+        #descripcionCiber{
+            margin-left: 0;
+            color: white;
+            height: 0;
+            margin-top: -135%;
+            width: 100%;
+            padding-top: 0;
+            background: none;
+            opacity: 1;
+            border: none;
+            border-top-left-radius: none;
+            border-bottom-right-radius: none;
+        }
+        #ImgCiber{
+            position: absolute;
+            left: 4%;
+            margin-top: 11%;
+            width: 51%;
+        }
+        #btnCiber1Abrir
+        {
+            margin-left: 21%;
+        }
+        #btnCiber2Abrir{
+            margin-left: 35.8%;
+        }
+        #btnCiber3Abrir{
+            margin-left: 65.5%;
+        }
+        #btnCiber4Abrir{
+            margin-left: 12.5%
+        }
+    /*Desarrollo*/
+    #desarrolloSection
+    {
+    margin-top: 60%;
+    }
+    .hrDesarrollo
+    {
+    color: #D1525A;
+    width: 90%;
+    height: 3px;  
+    border-bottom:#D1525A 1px solid;
+    opacity: 1;
+    }
+    #tituloDesarrolloRojo{
+    font-family: BeVietnam-Boldimport;
+    margin-left: 0%;
+    font-size: 54px;
+    color: #D1525A;
+    display: inline;
+    margin-top: 0%;
+    }
+    #tituloDesarrollo{
+     font-family: BeVietnam-Boldimport;
+     font-size: 54px;
+     color: #FFF;
+     display: inline;
+    }
+    #fraseDesarrollo{
+        position: absolute;
+        font-weight: lighter;
+        font-size: 11px;
+        color: white;
+        letter-spacing: 4px;
+        margin-top: 225px;
+        margin-left: 0%;
+    }
+
+    #ubiListaDesarrollo{
+        margin-top: 35%;
+        margin-left: 0%;
+    }
+    #listaDesarrollo
+    {
+    color:white;
+    display: inline;
+    font-size: 15px;
+    }
+    #imgDesarrollo
+    { 
+    width: 50%;
+    margin-top: -5%;
+    margin-left: 21%;
+    }
+    #descripcionDesarrollo
+    {
+     height: 14.7%;
+     color: white;
+     font-size: 15px;
+     text-align: none;
+     background: none;
+     opacity: 1;
+     border: none;
+     width: 100%;
+     margin-left: 0%;
+     margin-top: -161%;
+     padding-top: 20px;
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+     border-bottom-right-radius: 0;
+    }
+ 
+  
+    #btnDesarrollo1Abrir{
+    margin-left: 19.5%;
+    }
+    #btnDesarrollo2Abrir{
+    margin-left: 68.5%;
+    }
+    #btnDesarrollo3Abrir{
+    margin-left: 50%;
+    }
+    #btnDesarrollo4Abrir{
+    margin-left: 35.5%;
+    }
+        /*OUTSOURCING*/
+        #OutsourcingSection{
+            margin-top: 20%;
+        }
+        #fraseOutsourcing
+        {
+            font-size: 11.7px;
+            position: absolute;
+            margin-top: 210px;
+            color: white;
+            letter-spacing: 3px;
+            margin-left: 0;
+        
+        }
+        #tituloOutsourcingRojo
+        {
+            font-family: BeVietnam-Boldimport;
+            margin-left: 0;
+            font-size: 54px;
+            color: #D1525A;
+            display: inline;
+        }
+        #tituloOutsourcing
+        {
+            font-family: BeVietnam-Boldimport;
+            font-size: 54px;
+            color: #FFF;
+            display: inline;
+        }
+        #descripcionOutsourcing{
+        position: absolute;
+        height: 15%;
+        text-align: initial;
+        background: none;
+        border: none;
+        width: 94%;
+        margin-top: 130px;
+        margin-left: 0%;
+        color: white;
+        font-size: 13px; 
+        padding-top: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius:0;
+        }
+        #listaOutsourcing{
+        color:white;
+        display: inline;
+        font-size: 15px;
+        }
+        #ImagenOutsourcing{
+        margin-left: 25%;
+        margin-top: 5%;
+        width: 50%;
+        }
+        .btnOut{
+        margin-left: 20.5%;
+        }
+        #listaOut{
+        margin-top: 30%;
+        }
+        
+    /*Sponsor*/
+    #tituloSponsor{
+        font-family: BeVietnam-Boldimport;
+        margin-top: 35%;
+        color: white;
+        letter-spacing: 12px;
+        text-align: center;
+        margin-left: 4px;
+        }
+        .Sponsor{
+        height: 30vh;
+        }
+        .imgSponsor{
+          display: inline;
+          width: 45%;
+          margin-top: 26px;
+        }
+        #inhaus
+        {
+         margin-left: 5%;
+        }
+        #thebridge
+        {
+            width: 48%;
+            margin-left: -17px;;
+        }
+        /*Clientes*/
+        .clientes{
+        display: grid;
+        height: 50vh;
+        background-color:#C4C4C4 ;
+      
+        }
+        #tituloClientes{
+        color:#000C33 ;
+        letter-spacing: 10px;
+        text-align: center;
+        padding-top: 40px;
+        }
+        .ImgMarcas{
+            display: inline;
+            width: 76px;
+            opacity: 0.5;
+            margin-left: 5%;
+            margin-top: 14px;
+        }
+        #imgPhilips{
+            width: 145px;
+            margin-left: 35px;
+        }
+        #imgCoca{
+            width: 140px
+        }
+       /*PREGUNTAS FRECUENTES*/
+       #PreguntasSection{
+        margin-top: -19%;
+        height: 100vh;
+       }
+       #frasePregunta{
+        position: absolute;
+        margin-top: -60px;
+        color: white;
+        letter-spacing: 6px;
+        }
+        #listaPregunta{
+        color:white;
+        display: inline;
+        font-size: 15px;
+        } 
+        #btnPRegunta1Abrir{
+         margin-left:  51.2%
+        }
+        #btnPRegunta2Abrir{
+         margin-left: 45.1%;
+        }
+        #btnPRegunta3Abrir{
+          margin-left: 52%;
+        }
+        #btnPRegunta4Abrir{
+          margin-left: 33.5%;
+        }
+        #btnPRegunta5Abrir{
+         margin-left: 37.5%;
+        }
+      #descripcionPregunta{
+        font-family: BeVietnam-Boldimport;
+        margin-left: 36%;
+        color: white;
+        font-size: 24px;
+        text-align: initial;
+        margin-top: 48%;
+      }
+      .mail1{
+        position: absolute;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        left: 21%;
+        margin-top: -3.1%;
+      }
+      .mail2{
+        position: absolute;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        left: 26%;
+        margin-top: 6%;
+      }
+      #ImgPregunta{
+        position: absolute;
+        left: 18%;
+        margin-top: 0%;
+        width: 60%;
+      }
+        
+        /*footer*/
+        #divFooter{
+        width: 100%; 
+        background-color: #FFF; 
+        height: 200%;
+        }
+        #footer{
+        margin-left: 10%;
+        width: 85%; 
+        padding-top: 50px;
+        }
+        .col-3{ width: 100%; }
+        .col-4{ width: 100%; }
+        .formFooter{ margin-left: -30px; 
+            margin-top: 34px; }
+         .btn{ margin-right: 41px; }
+}
