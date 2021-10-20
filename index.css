@@ -121,27 +121,27 @@ body{
   
     }
   
-    .staffing{
-    position: absolute;
-    width: 40%;
-    left: 47%;
-    margin-top:-300px;
-    }
+  
   
     hr{
     color: #D1525A;
-    width: 40%;
+    width: 70%;
     height: 3px;  
     border-bottom:#D1525A 1px solid;
     opacity: 1;
     }
     .lista{
-    margin-top: 10%;
+    margin-top: 20%;
     }
   
   
     /*titulos de todas los componentes*/
     /*STAFFING*/
+    .ImgStaffing{
+      position: absolute;
+      width: 40%;
+      left: 47%;
+      }
     #tituloStaffing
     {
   
@@ -269,69 +269,66 @@ body{
   
     }
     #descripcionCiber{
-    margin-left: 48%;
-    color: white;
-    font-size: 16px;
-    height: 12%;
-    margin-top: -95px;
-    text-align: center;
-    width: 30%;
-    padding-top: 20px;
-    background: #D1525A;
-    opacity: 85%;
-    border: #D1525A 1px solid ;
-  
-    border-top-left-radius: 20%;
-    border-bottom-right-radius: 20%;
+      color: white;
+      font-size: 16px;
+      height: 32%;
+      margin-top: 0px;
+      text-align: center;
+      width: 33%;
+      padding-top: 20px;
+      background: #D1525A;
+      opacity: 85%;
+      border: #D1525A 1px solid;
+      border-top-left-radius: 20%;
+      border-bottom-right-radius: 20%;
     }
     #ImgCiber{
     position: absolute;
     left: 54%;
-    margin-top: -32%;
     width: 34.5%;
     }
     #btnCiber1Abrir
     {
     margin-left: 5.7%;
     }
+    #btnCiber2Abrir{
+      margin-left: 14.5%;
+    }
     #btnCiber3Abrir{
-    margin-left: 27%;
-  
+      margin-left: 43.5%;
     }
     #btnCiber4Abrir{
-    margin-left: 27.5%;
+    margin-left: 44.5%;
     }
-    #btnCiber2Abrir{
-    margin-left: 13%;
-    }
+
   
     /*Desarrollo*/
     #fraseDesarrollo{
-    position: absolute; 
-    font-weight: lighter;
-    font-size: 13.7px;
-    color: white; 
-    letter-spacing: 7px; 
-    margin-top: 80px;
-    margin-left:36.7%;
+      position: absolute;
+      font-weight: lighter;
+      font-size: 13.7px;
+      color: white;
+      letter-spacing: 7px;
+      margin-top: 80px;
+      margin-left: 3.5%;
     }
     #tituloDesarrolloRojo{
-    font-family: BeVietnam-Boldimport;
-    margin-left:53.6%;
-    font-size: 64px; 
-    color: #D1525A; 
-    display: inline;
-    margin-top: 60%;
+      font-family: BeVietnam-Boldimport;
+      margin-left: 10%;
+      font-size: 64px;
+      color: #D1525A;
+      display: inline;
+      margin-top: 60%;
     }
     #tituloDesarrollo{
-    font-family: BeVietnam-Boldimport;
-    font-size: 64px; 
-    color: #FFF; 
-    display: inline;
+      font-family: BeVietnam-Boldimport;
+      font-size: 64px;
+      color: #FFF;
+      display: inline;
     }
     #ubiListaDesarrollo{
-    margin-top: 5%;
-    margin-left: 54%;
+      margin-top: 10%;
+      margin-left: 10%;
     }
     #listaDesarrollo
     {
@@ -341,27 +338,26 @@ body{
     }
     #imgDesarrollo
     { 
-    width: 50%;
-    margin-top: -41.4%;
-    margin-left: -10%;
+      width: 50%;
+      margin-top: -42%;
+      margin-left: -62%;
     }
     #descripcionDesarrollo
     {
-    height: 14.7%;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    background: #D1525A;
-    opacity: 85%;
-    border: #D1525A 1px solid ;
-    width: 30%;
-    margin-left: 20%;
-    margin-top: -43.2%;
-    padding-top: 20px;
-  
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
+      height: 23.7%;
+      color: white;
+      font-size: 15px;
+      text-align: center;
+      background: #D1525A;
+      opacity: 85%;
+      border: #D1525A 1px solid;
+      width: 30%;
+      margin-left: 24%;
+      margin-top: -34%;
+      padding-top: 19px;
+      border-top-left-radius: 20%;
+      border-top-right-radius: 20%;
+      border-bottom-right-radius: 20%;
     }
     #desarrolloSection
     {
@@ -377,60 +373,59 @@ body{
     }
   
     #btnDesarrollo1Abrir{
-    margin-left: 19.5%;
+    margin-left: 17%;
     }
     #btnDesarrollo2Abrir{
-    margin-left: 68.5%;
+      margin-left: 68%;
     }
     #btnDesarrollo3Abrir{
-    margin-left: 50%;
+      margin-left: 49%;
     }
     #btnDesarrollo4Abrir{
-    margin-left: 35.5%;
+      margin-left: 33%;
     }
     /*OUTSOURCING*/
 
     #fraseOutsourcing
     {
-    font-size: 13.7px;
-    position: absolute;
-    margin-top: 80px;
-    color: white;
-    letter-spacing: 7px;
-    margin-left: 5.7%;
+      font-size: 13.7px;
+      position: absolute;
+      margin-top: 81px;
+      color: white;
+      letter-spacing: 7px;
+      margin-left: 3%;
     }
+    
     #tituloOutsourcingRojo
     {
-    font-family: BeVietnam-Boldimport;
-    margin-left:4%;
-    font-size: 64px; 
-    color: #D1525A; 
-    display: inline;
-    }
+      font-family: BeVietnam-Boldimport;
+      margin-left: 2%;
+      font-size: 64px;
+      color: #D1525A;
+      display: inline;
+  }
     #tituloOutsourcing
     {
-    font-family: BeVietnam-Boldimport;
-    font-size: 64px; 
-    color: #FFF; 
-    display: inline;
+      font-family: BeVietnam-Boldimport;
+      font-size: 64px;
+      color: #FFF;
+      display: inline;
     }
     #descripcionOutsourcing{
-    position: absolute;
-    height: 15%;
-    color: white;
-    text-align: center;
-    background: #D1525A;
-    opacity: 85%;
-    border: #D1525A 1px solid ;
-    width: 20%;
-    margin-left: 50%;
-    color: white;
-    font-size: 15px; 
-    text-align: center;
-    padding-top: 20px;
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
+      height: 19%;
+      color: white;
+      font-size: 15px;
+      text-align: center;
+      background: #D1525A;
+      opacity: 85%;
+      border: #D1525A 1px solid;
+      width: 60%;
+      margin-left: 67%;
+      margin-top: 6%;
+      padding-top: 20px;
+      border-top-left-radius: 20%;
+      border-top-right-radius: 20%;
+      border-bottom-right-radius: 20%;
     }
     #listaOutsourcing{
     color:white;
@@ -438,15 +433,15 @@ body{
     font-size: 24px;
     }
     #ImagenOutsourcing{
-    margin-left: 52%;
-    margin-top: -33%;
-    width: 40%;
+      margin-left: 24%;
+      margin-top: -148px;
+      width: 91%;
     }
     .btnOut{
-    margin-left: 4.5%;
+    margin-left: 0.5%;
     }
     #listaOut{
-    margin-top: 7%;
+    margin-top: 10%;
     }
     /*Sponsor*/
     #tituloSponsor{
@@ -494,10 +489,13 @@ body{
       margin-top: 30px;
       }
       #imgPhilips{
-      width: 270px;
+        width: 270px;
+        margin-top: -2%;
+        margin-left: 30%;    
       }
       #imgCoca{
-      width: 255px;
+        width: 255px;
+        margin-top: 13%;
       }
    /*PREGUNTAS FRECUENTES*/
    #PreguntasSection{
@@ -505,7 +503,7 @@ body{
    }
    #frasePregunta{
     position: absolute;
-    margin-top: -70px;
+    margin-top: 2%;
     color: white;
     letter-spacing: 6px;
     }
@@ -514,27 +512,28 @@ body{
     display: inline;
     font-size: 24px;
     } 
+    #btnPRegunta1Abrir{
+      margin-left: 29.5%;
+      }
+      #btnPRegunta2Abrir{
+        margin-left: 23.1%;
+        }
     #btnPRegunta3Abrir{
-      margin-left: 21%;
+      margin-left: 30.5%;
     }
     #btnPRegunta4Abrir{
     margin-left: 11.5%;
     }
-    #btnPRegunta2Abrir{
-    margin-left: 17.1%;
-    }
-    #btnPRegunta1Abrir{
-      margin-left: 20.2%;
-      }
-      #btnPRegunta5Abrir{
-        margin-left: 13.5%;
-        }
+    #btnPRegunta5Abrir{
+     margin-left: 16%;
+     }
   #descripcionPregunta{
     font-family: BeVietnam-Boldimport;
     margin-left: 37%;
     color: white;
     font-size: 28px;
     text-align: center;
+    margin-top: 80%;
   }
   .mail1{
     position: absolute;
@@ -542,8 +541,8 @@ body{
     color: white;
     text-align: center;
     font-size: 28px;
-    left: 66%;
-    margin-top: -3.1%;
+    left: 65%;
+    margin-top: 1.9%;
   }
   .mail2{
     position: absolute;
@@ -553,11 +552,12 @@ body{
     font-size: 28px;
     left: 66%;
     margin-top: -1%;
+    margin-left: 1%;
   }
   #ImgPregunta{
     position: absolute;
     left: 54%;
-    margin-top: -25%;
+    margin-top: 49px;
     width: 34.5%;
   }
     
@@ -593,245 +593,3 @@ body{
     background:#FFF ;
     color:#20ba5a;
     }
-
-@media only screen and (min-width:320px) and (max-width:768px){
-  .secciones{
-    width: 100vw;
-    height: 100vh;
-    margin-top: 100px;
-  }
-  
-  h3{
-    color:white;
-  }
- 
-  .ImagenesServicios{
-   width: 35%;
-  }
-
-  .staffing{
-    width: 100%;
-    margin-left: 0%;
-    margin-top: 3%;
-  }
- 
-  hr{
-   color: #D1525A;
-   width: 34%;
-   height: 3px;
-  }
-  .lista{
-   margin-top: 34%;
-  }
-  #brMovil{
-    display:block;
-  }
-  #brDesktop
-  {
-    display: none;
-  }
- 
- 
-  /*titulos de todos los componentes*/
-  /*STAFFING*/
- #tituloStaffing
- {
-   font-size: 64px;
-    color: #FFF ;
-     display: inline;
- }
- #tituloStaffingRojo{
-   font-size: 64px;
-   color: #D1525A;
-   display: inline;
- }
- #fraseStaffing{
-   color: white;
-   font-size: 15px;
-   margin-top: 0;
-   text-align: center;
- }
- #btnStaffing{
-  margin-left: 20%
- }
- 
- /*Que hacemos*/
- #queHacemos{
-  font-size: 50px;
- }
- .brCiber {
-   display: none;
- }
- /*CiberSeguridad*/
- #fraseCiber{
-  font-size: 10px;
-  margin-top: 39%;
-  margin-left: 5%;
-
- }
- #tituloCiberRojo{
-  margin-left: 3%;
-  font-size: 50px;
- }
- #tituloCiber{
-   font-size: 50px; 
-   color: #FFF; 
-   display: inline;
- }
- #listaCiber{
-  display: inline;
-  font-size: 10px;
-  margin-left: 5%;
- }
- .icon{
-  width: 36px;
- }
- #descripcionCiber{
-  margin-top: -162%;
-  text-align: initial;
-  margin-left: 15px;
-  font-size: 18px;
- }
- #ImgCiber{
-  margin-left: 20%;
-  margin-top: -3%;
-  width: 57%;
-}
-  
- /*Desarrollo*/
- #fraseDesarrollo{
-  position: absolute;
-  margin-top: 45%;
-  margin-left: 2%;
-  color: white;
-  letter-spacing: 0px;
- }
- #tituloDesarrolloRojo{
-   margin-left: 0;
-   font-size: 53px; 
-   color: #D1525A; 
-   display: inline;
-   margin-top: 0px;
- }
- #tituloDesarrollo{
-   font-size: 53px; 
-   color: #FFF; 
-   display: inline;
- }
- #ubiListaDesarrollo{
-  margin-top: 44%;
-  margin-left: 10%;
- }
- #listaDesarrollo
- {
-   color:white;
-   display: inline;
-   font-size: 18px;
- }
- #imgDesarrollo
- {
-  margin-top: -8%;
-  width: 66%;
-  margin-left: 16%;
- }
- #descripcionDesarrollo
- {
-   margin-top: -173%;
-   color: white;
-   font-size: 16px;
-   text-align: initial;
-   margin-left: 0%;
- }
- /*OUTSOURCING*/
- #fraseOutsourcing
- {
-   position: absolute;
-   margin-top: 140px;
-   color: white;
-   letter-spacing: 1px;
- }
- #tituloOutsourcingRojo
- {
-   margin-left:0%;
-   font-size: 53px; 
-   color: #D1525A; 
-   display: inline;
- }
- #tituloOutsourcing
- {
-   font-size: 53px; 
-   color: #FFF; 
-   display: inline;
- }
- #descripcionOutsourcing{
-  margin-left: 0;
-  color: white;
-  font-size: 14px;
-  margin-top: 4px;
-  text-align: initial
- }
- #listaOutsourcing{
-  color: white;
-  display: inline;
-  font-size: 17px;
-  margin-top: 50px;
- }
- #ImagenOutsourcing{
-  width: 240px;
-  margin-left: 21%;
-  margin-top: 0%;
- }
- 
- /*Sponsor*/
- #tituloSponsor{
-   color: white;
-   letter-spacing: 10px;
-   text-align: center;
- }
- .Sponsor{
-   height: 50vh;
- }
- .imgSponsor{
-  display: inline;
-  margin-left: 6%;
-  width: 340px;
- }
- 
- 
- /*Clientes*/
- .clientes{
-   height: 50vh;
-   background-color:#C4C4C4 ;
-  
- }
- #tituloClientes{
-   color:#000C33 ;
-   letter-spacing: 10px;
-   text-align: center;
-   padding-top: 40px;
- }
- .ImgMarcas{
-  display: inline;
-  width: 85px;
-  opacity: 0.5;
-  margin-left: 8%;
-  margin-top: 50px;
- }
- 
- /*footer*/
- #divFooter{
-   width: 100%; 
-   background-color: #FFF; 
-   height: 200%;
- }
- #footer{
-   margin-left: 10%;
-   width: 85%; 
-   padding-top: 100px;
- }
-  .btnWsp{
-      width:63px;
-      height:63px;
-      line-height: 66px;
-}
-}
