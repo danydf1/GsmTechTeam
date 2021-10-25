@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="shortcut icon" href="Imagenes/GSM-PRINCIPAL.png">
+    <link rel="shortcut icon" href="Images/GSM-PRINCIPAL.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <link rel="stylesheet" href="index.css" >
@@ -14,67 +14,92 @@
     <title>Unite a GSM TECH</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent "  >
-    <div class="container">
-      <a class="navbar-brand" href="#">GSM <br>TECH</a>
+  <nav class="navbar  navbar-expand-lg navbar-expand-xs navbar-dark" >
+    <div class="container " >
+      <a class="navbar-brand" href="Index.html">GSM <br>TECH</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="Index.html"  id="navlink">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Solution
+            </a>
+            <ul class="dropdown-menu" style="background:#000C33;" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" style="color: white;" href="Index.html#sectionPartner">Partner</a></li>
+              <li><hr class="dropdown-divider" style="color: rgb(209, 82, 90);margin-left: 19px;width: 88%;;"></li>
+              <li><a class="dropdown-item" style="color:white ;" href="Index.html#OutsourcingSection">Outsourcing</a></li>
+              <li><hr class="dropdown-divider" style="color: rgb(209, 82, 90);margin-left: 19px;width: 88%;"></li>
+              <li><a class="dropdown-item" style="color: white;" href="Index.html#desarrolloSection">Desarrollo</a></li>
+              <li><hr class="dropdown-divider"style="color: rgb(209, 82, 90);margin-left: 19px;width: 88%;"></li>
+              <li><a class="dropdown-item" style="color: white;" href="Index.html#CiberSeguridadSection">Ciberseguridad</a></li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html/CiberSeguridadSection">Ciberseguridad</a>
+            <a class="nav-link " id="navlink" href="Unirse.html">Vacantes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html/DesarrolloSection">Desarrollo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Contratanos.html">Contactanos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Unirse.html">Contratamos</a>
+            <a class="nav-link active" id="navlink" href="Contratanos.html">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav> 
 
-      <div style="width: 100vw; background-color: white;padding: 30px; text-align: center;">    
+      <div class="banner">    
         <h1 class="TituloBanner">Necesitamos </h1> <h1 class="TituloBannerRojo">tu talento</h1>
         <p class="frase">TRABAJA CON NOSOTROS</p>
       </div>
       <div class="container">
-
-        <img src="Images/FORMULARIO-1.gif" class="imgForm"  alt="personas hablando">
-        <form class="form" >
-          <input type="text" placeholder="Nombre y apellido"  class="campos">
-        
-          <input type="text" placeholder="Email" class="campos">
-         
-          <input type="text" placeholder="Telefono" class="campos">
-         
-          <input type="text" placeholder="Especialidad" class="campos">
-        
-          <input type="text" placeholder="Cargar CV" id="campoFile"  class="campos">
-   
-          <p style="color: white;margin-top: 44px;">Estoy de acuerdo con el tratamiento de mis datos personales según la Política de Privacidad 
-            En virtud de lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento europeo y del consejo de 27 de abril de
-             2016 relativo a la protección de las personas físicas en lo que respecta 
-             al tratamiento de datos personales, 
-             GRUPO SAN MIGUEL le informa que sus datos personales incorporados en este formulario, serán incluidos 
-             en un fichero creado bajo nuestra responsabilidad, con la finalidad de comunicarnos con usted para llevar a cabo el mantenimiento y control 
-             de la relación negocial que nos vincula y podrán ser cedidos a terceros para 
-             gestionar la relación negocial. Según el Reglamento (UE) 2016/679 de 27 de abril de 2016, puede ejercitar los derechos de acceso, rectificación,
-              oposición y supresión dirigiéndose por escrito a GRUPO SAN MIGUEL en C/Santillana del mar 14, Local19º,
-              Boadilla del Monte 28660, Madrid o al correo electrónico info@gruposanmiguel.es</p>
-
+        <div class="row">
+          <div class="col-12 col-lg-6 col-xl-6 col-xxl6">
+            <img src="Images/FORMULARIO-1.gif" class="imgForm"  alt="personas hablando">
+          </div>
+          <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+            
+            <form class="form" >
+              <input type="text" placeholder="Nombre y apellido"  class="campos">
+            
+              <input type="text" placeholder="Email" class="campos">
              
-               <button id="btnPostular">Postularme</button>
-          
-      </form>
+              <input type="text" placeholder="Telefono" class="campos">
+             
+              <input type="text" placeholder="Especialidad" class="campos">
+            
+              <input type="text" placeholder="Cargar CV" id="campoFile"  class="campos">
+          </form>
+          </div>
+          <div class="col-12">
+            <p style="color: white;margin-top: 44px;">Estoy de acuerdo con el tratamiento de mis datos personales según la Política de Privacidad 
+              En virtud de lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento europeo y del consejo de 27 de abril de
+               2016 relativo a la protección de las personas físicas en lo que respecta 
+               al tratamiento de datos personales, 
+               GRUPO SAN MIGUEL le informa que sus datos personales incorporados en este formulario, serán incluidos 
+               en un fichero creado bajo nuestra responsabilidad, con la finalidad de comunicarnos con usted para llevar a cabo el mantenimiento y control 
+               de la relación negocial que nos vincula y podrán ser cedidos a terceros para 
+               gestionar la relación negocial. Según el Reglamento (UE) 2016/679 de 27 de abril de 2016, puede ejercitar los derechos de acceso, rectificación,
+                oposición y supresión dirigiéndose por escrito a GRUPO SAN MIGUEL en C/Santillana del mar 14, Local19º,
+                Boadilla del Monte 28660, Madrid o al correo electrónico info@gruposanmiguel.es</p>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Acepto</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Rechazar</label>
+                </div>
+               
+                 <button id="btnPostular">Postularme</button>
+            
+          </div>
+          </div>
+        </div>
+
+        
     </div>
       <div id="divFooter" >
         <footer id="footer" >
@@ -100,7 +125,7 @@
               </ul>
             </div>
       
-            <div class="col-4 offset-1">
+            <div class="col-4 offset-1 col-xs-12">
               <form>
                 <h5>Subscribete a nuestro newsletter</h5>
                 <p>Informacion por semana.</p>

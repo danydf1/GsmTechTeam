@@ -1,3 +1,24 @@
+.banner{
+    width: 100vw; 
+    background-color: white;
+    padding: 30px; 
+    text-align: center;
+}
+.TituloBanner{
+    color: #000c33;
+    display: inline;
+    font-size: 96px;
+}
+.TituloBannerRojo
+{
+    color:#D1525A; 
+    display: inline; 
+    font-size: 96px;
+}
+.frase{
+    color: #000c33;
+    letter-spacing: 20px; 
+}
 #btnPostular{
     margin-left: 67%;
     width: 20%;
@@ -7,9 +28,7 @@
     margin-bottom: 4%;
 }
 .form{
-    margin-top: -55%;
-    margin-left: 50%;  
-    width: 50%;
+    margin-top: 10%;
     Word-wrap: break-Word;
 }
 
@@ -24,13 +43,16 @@
     font-size: 30px;
 }
 .imgForm{
-    width: 41%;
-    margin-top: 128px;
-    margin-bottom: 12%;
-    margin-left: -0%;
+    width: 57%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    margin-left: 1%;
 }
 #campoFile{
     text-align: center;
     width: 30%;
     margin-left: 70%;
+}
+.form-check{
+    color: white;
 }
